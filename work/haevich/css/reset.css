@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url('fonts.css');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+@import url('styles1.css');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	padding:0;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif; 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{text-decoration:none; }
+
+
+/* Æû°øÅë */
+input{vertical-align:middle;}
+input[type="text"] {width:100%; border:1px solid #ddd; height:35px; color:#5b5b5b}
+input[type="text"]::-webkit-input-placeholder {color:#a7a7a7;}
+input[type="text"]:-input-placeholder {color:#a7a7a7;}
+input[type="text"]:-ms-input-placeholder {color:#a7a7a7;}
+input[type="text"]::-moz-input-placeholder {color:#a7a7a7;}
+
+input[type="password"] {width:100%; border:1px solid #ddd; height:35px; color:#5b5b5b}
+input[type="password"]::-webkit-input-placeholder {color:#a7a7a7;}
+input[type="password"]:-input-placeholder {color:#a7a7a7;}
+input[type="password"]:-ms-input-placeholder {color:#a7a7a7;}
+input[type="password"]::-moz-input-placeholder {color:#a7a7a7;}
+
+input[type="text"] {width:100%; border:1px solid #ddd;}
+input[type="text"]::-webkit-input-placeholder {color:#a7a7a7;}
+input[type="text"]:-input-placeholder {color:#a7a7a7;}
+input[type="text"]:-ms-input-placeholder {color:#a7a7a7;}
+input[type="text"]::-moz-input-placeholder {color:#a7a7a7;}
+
+textarea {width:100%; border:1px solid #ddd;}
+textarea::-webkit-input-placeholder {color:#a7a7a7;}
+textarea:-input-placeholder {color:#a7a7a7;}
+textarea:-ms-input-placeholder {color:#a7a7a7;}
+textarea::-moz-input-placeholder {color:#a7a7a7;}
+select {width:100%; height:36px; font-size:20px; font-family: 'Nanum Myeongjo'; color:#ddd; 
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-o-box-sizing:border-box;
+-ms-box-sizing:border-box;
+box-sizing:border-box; 
+background:#282828 url('../image/arrow_down.png') no-repeat 98% 50%; border:none; 
+-webkit-appearance:none;
+-moz-appearance:none;
+-o-appearance:none;appearance:none;}
+select::-ms-expand{display: none;}
+input[type='text']{background:#282828; border:none; font-size:20px; color:#ddd; font-family: 'Nanum Myeongjo'; }

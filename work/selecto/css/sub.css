@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*visual*/
+.visual{width:100%; height:379px; background:url('../image/sub/about/vis.jpg') no-repeat top center; position:relative; top:90px;}
+
+.visual .title{padding-top:120px;}
+.visual .title h2{font-size:24px; color:#fff; font-weight:normal}
+.visual .title h3{font-size:36px; color:#f0ff00; font-weight:normal; margin:24px 0;}
+.visual .title p{font-size:20px; color:#fff; font-weight:normal; line-height:130%; font-weight:100; letter-spacing:-1px; font-family: 'Nanum Barun Gothic';}
+
+/*article*/
+article {text-align:center; height:2358px; background:url('../image/sub/about/content_bg01.jpg') no-repeat top center;}
+
+/*nav*/
+.about_inner{width:970px; margin:80px auto 0;}
+nav.about ul{font-size:0; text-align:center; padding-top:40px;}
+nav.about ul li{display:inline-block; font-size:18px; width:16.6%; text-align:center;}
+nav.about ul li a{display:block; padding:0 5%; color:#656463;}
+nav.about ul li img{vertical-align:top}
+nav.about ul li p{margin-top:20px; letter-spacing:-1px;}
+
+nav.about .active p{color:#ba0510;}
+
+/*section*/
+section > h2{margin-top:95px;}
+section.about{overflow:hidden; margin-bottom:130px;}
+section .box1.about{margin-top:65px;}
+section .box1.about{overflow:hidden;}
+section .box1.about div{float:left;}
+section .box1.about .text{margin-left:23px;}
+section .box1.about .text p{margin-top:55px;}
+
+section.about .about{text-align:left; color:#3c3c3c; font-family: 'Nanum Barun Gothic';}
+section.about .about .text p{line-height:140%; font-size:18px; font-weight:200; letter-spacing:-1px;} 
+section.about .about .text h3{font-size:22px; line-height:130%;}
+
+section .box2.about{float:right; margin-top:102px;}
+section .box2.about .text{text-align:left; color:#3c3c3c;}
+section .box2.about .text h3{margin-top:40px; margin-bottom:35px;}
+
+
+section .box3.about{float:right; margin-top:75px; width:100%;}
+section .box3.about div{float:left;}
+section .box3.about .text{margin-left:23px; margin-top:280px; text-align:left; color:#3c3c3c;}
+section .box3.about .text h3{margin-top:40px;}
+section .box3.about .text p{margin-top:35px;}
+
+
+/*footer*/
+footer{background:#272727; height:180px;}
+footer div{overflow:hidden; margin-top:55px;}
+footer div span, footer div p{float:left;}
+footer div p{text-align:left; margin-left:53px; line-height:150%; color:#fff; font-weight:normal; font-family: 'Nanum Barun Gothic'; font-size:14px;}

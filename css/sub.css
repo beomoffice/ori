@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+
+.con{display:none; overflow-x:hidden; width:100%; height:100%;position:fixed; top:0; left:0; overflow-y:scroll; z-index:999; background: rgba(0,0,0,0.8)}
+.wrap_con{width:1000px; margin:0 auto; text-align:left; background:#222;}
+.con_inner{width:840px; margin:0 auto; text-align:left;}
+/*공통*/
+a{text-decoration:none;}
+/*visual*/
+.visual{height:450px;}
+p{font-size:14px; font-family: 'NotoKrDL';}
+
+/*button*/
+.con button{
+	margin-top:10px;
+	font-size:13px;
+	width:182px;
+	background:#fff;
+	border-radius:25px;
+	border:none;
+	height:33px;
+	font-family: 'NotoKrDL'
+	text-align:left;
+	cursor:pointer;
+}
+.con button a{
+	text-align:left;
+	text-indent:4px;
+	color:#000;
+}
+
+/*design*/
+.design .text{margin:70px 0;}
+.design ul li{display:inline-block;}
+.design ul li:nth-child(2){margin:0 26px;}
+.design ul li img{box-shadow:5px 5px 5px 3px;}
+/*mobile,app design*/
+.mobile .design ul li img,
+.app .design ul li img{border-radius:10px;}
+/*.mobile .design ul li img,
+.app .design ul li img*/
+
+/*detail*/
+.detail .text{color:#fff; font-size:13px; font-family: 'NotoKrL'; margin-top:70px}
+.detail span{display:block; margin-top:-14px; margin-bottom:70px;}
+.detail ul{padding-bottom:70px;}
+
+/*sungshin*/
+/*visual*/
+.pc_sungshin .visual{background:url(../images/sub/sungshin/vis.jpg) no-repeat center center;}
+.pc_sungshin .visual .text{padding-top:170px;}
+.pc_sungshin .visual h2{color:#48008e; font-size:14px; font-family: 'Nanum Myeongjo', serif; }
+.pc_sungshin .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.pc_sungshin .visual p{text-indent:2px; margin-top:16px;}
+
+.con.pc_sungshin button{margin-left:-10px;}
+
+/*haevich*/
+.pc_haevich .visual{background:url(../images/sub/haevich/vis.jpg) no-repeat center center;}
+.pc_haevich .visual .text{padding-top:170px;}
+.pc_haevich .visual p{font-size:17px; margin-left:24px;}
+
+.con.pc_haevich button{margin-left:14px;}
+/*adias*/
+.pc_adidas .visual{background:url(../images/sub/adidas/vis.jpg) no-repeat center center;}
+.pc_adidas .visual .text{padding-top:170px;}
+.pc_adidas .visual p{color:#fff; font-size:17px;}
+
+/*adidas_m*/
+/*visual*/
+.m_adidas .visual{background:url(../images/sub/adidas_m/vis.jpg) no-repeat center center;}
+.m_adidas .visual .text{padding-top:130px; margin-left:270px;}
+.m_adidas .visual h2{color:#48008e; font-size:14px; font-family: 'Nanum Myeongjo', serif; }
+.m_adidas .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.m_adidas .visual p{text-indent:2px; margin-top:16px; color:#db537d; font-size:17px;}
+
+.con.m_adidas button{margin-left:-30px;}
+
+.m_adidas .mini{text-align:center;}
+.m_adidas .design .text{margin-left:36px;}
+.m_adidas .design ul li:nth-child(2){margin:0 55px;}
+
+.m_adidas .detail ul{text-align:center;}
+.m_adidas .detail .text{margin-left:108px;}
+
+
+/*selecto*/
+/*visual*/
+.pc_selecto .visual{background:url(../images/sub/selecto/vis.jpg) no-repeat center center;}
+.pc_selecto .visual .text{padding-top:170px;}
+.pc_selecto .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.pc_selecto .visual p{text-indent:2px; margin-top:16px; font-size:17px; color:#fff;}
+
+.con.pc_selecto button{margin-left:-10px;}
+
+/*dongwon*/
+.pc_dongwon .display{display:block; margin:100px 0 0 12px;}
+/*visual*/
+.pc_dongwon .visual{background:url(../images/sub/dongwon/vis.jpg) no-repeat center center;}
+.pc_dongwon .visual .text{margin-left:340px; padding-top:130px;}
+.pc_dongwon .visual h2{font-size:42px;color:#000;}
+.pc_dongwon .visual p{text-indent:2px; margin-top:16px; font-size:17px; color:#000;}
+
+.pc_dongwon .design ul{text-align:center;}
+.pc_dongwon .detail ul{text-align:center;}
+.pc_dongwon ul li img{box-shadow:none;}
+
+
+.pc_dongwon .mobile_wrap{overflow:hidden; margin-left:120px; text-align:center;}
+.pc_dongwon .mobile_wrap ul{float:left;}
+.pc_dongwon .mobile_wrap ul + ul{margin-left:80px;}
+
+/*selecto_m*/
+/*visual*/
+.m_selecto .visual{background:url(../images/sub/selecto_m/vis.jpg) no-repeat center center;}
+.m_selecto .visual .text{padding-top:170px;}
+.m_selecto .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.m_selecto .visual p{text-indent:2px; margin-top:16px; font-size:17px; color:#fff;}
+
+.con.m_selecto button{margin-left:-10px;}
+
+.m_selecto .mini{text-align:center;}
+.m_selecto .design .text{margin-left:36px;}
+.m_selecto .design ul li:nth-child(2){margin:0 55px;}
+
+.m_selecto .design ul li img{border-radius:25px;}
+.m_selecto .design ul li img{box-shadow:5px 5px 5px 3px;}
+
+.m_selecto .detail ul{text-align:center;}
+.m_selecto .detail .text{margin-left:180px;}
+
+/*m_sungshin*/
+/*visual*/
+.m_sungshin .visual{background:url(../images/sub/m_sungshin/vis.jpg) no-repeat center center;}
+.m_sungshin .visual .text{padding-top:170px;}
+.m_sungshin .visual h2{color:#fff; font-size:14px; font-family: 'Nanum Myeongjo', serif; font-weight:200;}
+.m_sungshin .visual h2 strong{font-size:52px;display:block;margin-bottom:-10px; margin-left:-8px;}
+.m_sungshin .visual p{text-indent:2px; margin-top:16px; color:#fff; font-size:17px;}
+
+.con.m_sungshin button{margin-left:-10px;}
+
+.m_sungshin .mini{text-align:center;}
+.m_sungshin .design .text{margin-left:36px;}
+.m_sungshin .design ul li:nth-child(2){margin:0 55px;}
+
+.m_sungshin .detail ul{text-align:center;}
+.m_sungshin .detail .text{margin-left:108px;}
+
+/*holler*/
+.holler .visual{background:url(../images/sub/holler/vis.jpg) no-repeat center center;}
+.holler .visual .text{padding-left:220px; padding-top:100px;}
+.holler .visual h2{color:#fff; font-size:14px; font-family: 'Nanum Myeongjo', serif; font-weight:200;}
+.holler .visual h2 strong{font-size:52px;display:block;margin-bottom:-10px; margin-left:-8px;}
+.holler .visual p{text-indent:2px; margin-top:16px; color:#fff; font-size:17px; margin-left:8px;}
+
+.holler .mini{text-align:center;}
+.holler .design .text{margin-left:36px;}
+.holler .design ul li:nth-child(2){margin:0 55px;}
+
+.con.holler button{margin-left:-12px;}
+
+.holler .detail .text{margin-left:115px;}
+.holler .mobile_wrap{overflow:hidden; margin-left:178px; text-align:center;}
+.holler .mobile_wrap ul{float:left;}
+.holler .mobile_wrap ul + ul{margin-left:35px;}
+
+/*gangreung*/
+.gangreung .visual{background:url(../images/sub/toilet/vis.jpg) no-repeat center center;}
+.gangreung .visual .text{padding-left:220px; padding-top:100px;}
+.gangreung .visual h2{color:#fff; font-size:14px; font-family: 'Nanum Myeongjo', serif; font-weight:200;}
+.gangreung .visual h2 strong{font-size:52px;display:block;margin-bottom:-10px; margin-left:-8px;}
+.gangreung .visual p{text-indent:2px; margin-top:16px; color:#000; font-size:17px; margin-left:8px;}
+
+.gangreung .mini{text-align:center;}
+.gangreung .design .text{margin-left:36px;}
+.gangreung .design ul li:nth-child(2){margin:0 55px;}
+
+.con.gangreung button{margin-left:-12px;}
+
+.gangreung .detail .text{margin-left:115px;}
+.gangreung .mobile_wrap{overflow:hidden; margin-left:178px; text-align:center;}
+.gangreung .mobile_wrap ul{float:left;}
+.gangreung .mobile_wrap ul + ul{margin-left:35px;}
+
+/*tefal*/
+/*visual*/
+.pc_tefal .visual{background:url(../images/sub/tefal/vis.jpg) no-repeat center center;}
+.pc_tefal .visual .text{padding-top:170px;}
+.pc_tefal .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.pc_tefal .visual p{text-indent:2px; margin-top:16px; font-size:17px; color:#000;}
+
+.pc_tefal .mini{text-align:center;}
+
+.con.pc_tefal button{margin-left:30px; background:#ff4d95;}
+.con.pc_tefal button a{color:#fff;}
+
+/*baek*/
+.con_baek .visual{background:url(../images/sub/baek/vis.jpg) no-repeat center center;}
+.con_baek .visual .text{padding-top:130px;}
+.con_baek .visual h2 strong{font-size:42px;display:block;margin-bottom:-10px;}
+.con_baek .visual p{text-indent:2px; margin-top:16px; font-size:17px; color:#000;}
+
+.con_baek .mini{text-align:center;}

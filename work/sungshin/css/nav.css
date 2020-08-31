@@ -1,0 +1,184 @@
+@import url('fonts.css');
+@font-face {
+	font-family: 'NotoKrL';
+}
+
+
+.menu {
+	width: 100%;
+
+	background:none;
+	position:absolute;
+	z-index:99999999;
+}
+
+
+/* general ul style */
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align:right;
+}
+
+/* first level ul style */
+.menu > ul,
+.menu .menu_inner {
+	width: 90%;
+	max-width: 1400px;
+	margin:0 auto;
+	padding: 0 1.875em;
+	height:80px;
+	line-height:40px;
+
+}
+
+.menu > ul > li {
+	display: inline-block;
+	height:78px;
+}
+
+.menu > ul > li:hover{
+}
+
+.menu > ul > li > a {
+	font-size:18px;
+	font-weight: 700;
+	padding: 1em 1em;
+	color: #fff;
+	display: inline-block;
+}
+
+.menu > ul > li > a:hover {
+	color: #55069a;
+}
+.btn{}
+
+
+/* sub-menu */
+.menu .menu_sub {
+	display: none;
+	position: absolute;
+	background: #55069a;
+	width: 100%;
+	left: 0;
+}
+
+.cbp-hropen .menu_sub {
+	display: block;
+	padding-bottom: 3em;
+}
+.menu .menu_inner{}
+.menu .menu_inner > div {
+	width: 20%;
+	float: right;
+	padding: 0 1.625em 0;
+}
+
+
+.menu .menu_inner:before,
+.menu .menu_inner:after {
+	content: " ";
+	display: table;
+}
+
+.menu .menu_inner:after {
+	clear: both;
+}
+
+.menu .menu_inner > div a {
+	line-height: 2em;
+}
+
+.menu_sub h4 {
+	color: #fff;
+	padding: 2em 0 0.6em;
+	margin: 0;
+	font-size: 160%;
+	font-weight: 300;
+}
+
+.menu_sub ul li a{color:#ac94f2;}
+.menu_sub ul li a:hover{color:#fff;}
+
+
+/*log-in*/
+.menu .log-in{
+text-align:right;
+margin-right:275px;
+}
+.menu .log-in li{
+	display:inline-block;
+	font-size:0;
+	padding:0 10px;
+}
+.menu .log-in li:last-child{
+	border-right:0;
+}
+.menu .log-in li a{
+	font-size:14px; color:#fff;
+}
+.menu .log-in > span{display:block; position:absolute;left:105px; top:20px;}
+
+
+
+
+
+/* Examples for media queries */
+
+@media screen and (max-width: 52.75em) { 
+
+	.menu {
+		font-size: 80%;
+	}
+
+}
+
+@media screen and (max-width: 43em) { 
+
+	.menu {
+		font-size: 120%;
+		border: none;
+	}
+
+	.menu > ul,
+	.menu .menu_inner {
+		width: 100%;
+		padding: 0;
+	}
+
+	.menu .menu_inner {
+		padding: 0 2em;
+		font-size: 75%;
+	}
+
+	.menu > ul > li {
+		display: block;
+		border-bottom: 4px solid #47a3da;
+	}
+
+	.menu > ul > li > a { 
+		display: block;
+		padding: 1em 3em;
+	}
+
+	.menu .menu_sub { 
+		position: relative;
+	}
+
+	.menu_sub h4 {
+		padding-top: 0.6em;
+	}
+
+}
+
+@media screen and (max-width: 36em) { 
+	.menu .menu_inner > div {
+		width: 100%;
+		float: none;
+		padding: 0 2em;
+	}
+}
+
+
+

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta charset="euc-kr">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../../css/responsible.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../../css/aos.css">
+
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script type="text/JavaScript" src="../../js/jquery.slicknav.js"></script>
+		<script type="text/JavaScript" src="../../js/aos.js"></script>
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+		<script>
+		    $(document).ready(function(){
+			   $('#menu').slicknav();
+			});
+			/*scrollTop*/
+			$(function(){
+				$("#scrollTop").on("click",function(){
+	/*기준점*/$("html,body").animate({
+						scrollTop : 0
+					},600);
+					return false;
+				});
+			})
+	    </script>
+	</head>
+ <body>
+    <!--header(s)-->
+    <header>
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<h1><a href="../../index.html"><img src="../../image/logo.png" alt="logo"></a></h1>
+				<ul class="nav-list" id="menu">
+					<li class="in_menu01"><a href="#">동원소개</a>
+						<ul>
+							<li><a href="../intro/group.html">그룹개요</a></li>
+							<li><a href="../intro/culture.html">기업문화</a></li>
+							<li><a href="../intro/ceo.html">CEO</a></li>
+							<li><a href="../intro/history.html">역사관</a></li>
+						</ul>
+					</li>
+					<li class="in_menu02"><a href="#">동원정보</a>
+						<ul>
+							<li><a href="../info/news.html">뉴스</a></li>
+							<li><a href="../info/brochure.html">브로슈어</a></li>
+							<li><a href="../info/advertise.html">동원광고</a></li>
+							<li><a href="../info/webzine.html">동원사보</a></li>
+						</ul>
+					</li>
+					<li class="in_menu03"><a href="#">정도경영</a>
+						<ul>
+							<li><a href="../intro/culture.html">동원의 정도경영</a></li>
+							<li><a href="../intro/culture.html">신고센터 이용안내</a></li>
+							<li><a href="../intro/history.html">신고하기</a></li>
+							<li><a href="../intro/history.html">처리결과 조회</a></li>
+						</ul>
+					</li>
+					<li class="in_menu04"><a href="#">인재채용</a>
+						<ul>
+							<li><a href="../intro/ceo.html">직무소개</a></li>
+							<li><a href="../intro/history.html">채용공고</a></li>
+							<li><a href="../intro/group.html">인재 DB</a></li>
+							<li><a href="../info/advertise.html">인사제도</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="smenu_bar"></div>
+		</nav>
+		<!-- //nav -->
+
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+			<h1><a href="#"><img src="../../image/logo1.png" alt="logo"></a></h1>
+		</div>
+		<!-- //mobile_menu -->
+	</header>
+	<!--header(e)-->
+
+	<!--visual-->
+	<div class="visual sub intro">
+		<div class="inner">
+			<a href="#"><img src="../../image/sub/intro/visual_title.png" alt="vis"></a>
+		</div>
+	</div>
+	<!--//visual-->
+
+	<!--tab-->
+	<div class="tab">
+		<ul>
+			<li><a href="group.html">그룹개요</a></li>
+			<li id="selected"><a href="culture.html">기업문화</a></li>
+			<li><a href="ceo.html">CEO</a></li>
+			<li><a href="history.html">역사관</a></li>
+		</ul>
+	</div>
+	<!--//tab-->
+	<!--mobile_tab-->
+	<div class="location">
+		<div class="inner_location">
+		    <div class="home"><a href="../../index.html"><img src="../../image/home.png" alt="home"></a></div>
+		    <div class="dp-wrap full-width down">
+        	<button class="js-dp-click button-common-cp">동원소개</button>
+					<div class="dp-con js-dp-content">
+	          <ul>
+							<li><a href="group.html">동원소개</a></li>
+	            <li><a href="../info/news.html">동원정보</a></li>
+	            <li><a href="#">정도경영</a></li>
+							<li><a href="#">인재채용</a></li>
+	          </ul>
+	      	</div>
+        </div>
+				<div class="dp-wrap full-width down">
+          <button class="js-dp-click button-common-cp">기업문화</button>
+          <div class="dp-con js-dp-content">
+            <ul>
+              <li><a href="group.html">그룹개요</a></li>
+              <li><a href="culture.html">기업문화</a></li>
+							<li><a href="ceo.html">CEO</a></li>
+							<li><a href="history.html">역사관</a></li>
+            </ul>
+      	  </div>
+			</div>
+		</div>
+	</div>
+	<!--mobile_tab-->
+	<!--article-->
+	<article class="culture sub intro">
+		<!--Ideology-->
+		<section class="Ideology sub intro">
+			<div class="inner">
+				<h2>창업이념<span></span></h2>
+				<h3>성실한 기업활동으로 사회정의의 실현</h3>
+				<div class="container">
+					<div class="photo"><img src="../../image/sub/intro/Ideology_img1.jpg" alt="photo"></div>
+					<div>
+						<p>
+							<strong class="big">'성실'</strong>이란
+							<br><strong>열(熱)과 성(誠)</strong>을 다하여 중간에 포기하는 일이 없이 끝까지 맡은 사명과
+							책임을 다하는 진실된 마음가짐과 겸허한 몸가짐을 말한다.
+						</p>
+						<p>
+							또한
+							<br><strong class="big">기업</strong>으로서 <strong>‘사회정의 실현’</strong>을 한다는 것은 근면과 신용으로 기업 스스로
+							역량을 키우고 시장경제 원리에 따라 정당하게 기업을 성장시키며 고용을 창출하고
+							성실하게 납세를 이행하는 것을 의미한다.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--//Ideology-->
+		<!--vision-->
+		<section class="vision sub intro">
+			<div class="inner">
+				<h2>비전<span></span></h2>
+				<h3>새로운 가치를 창조하는 사회필요기업</h3>
+				<div class="container">
+					<div class="photo"><img src="../../image/sub/intro/Ideology_img2.jpg" alt="photo"></div>
+					<div>
+						<p>
+							<strong>‘새로운 가치’</strong>는
+							<br>보다 나은 생활, 보다 나은 편리성, 보다 나은 안전성, 건강에 보다 유익한 제품 등 기존가치보다 더 뛰어난 가치를 더하는 것을 의미한다.
+							<br>제품뿐만 아니라 서비스 문화 등 무형의 가치까지 모두 포함된다.
+						</p>
+						<p>
+							<strong>‘사회필요기업’</strong>은
+							<br>기업 활동에 의한 정당한 이윤추구뿐 아니라 해당사회의 안정을 위한 지속적 고용창출, 이윤에 따른 납세의무 등을 성실하게 이행하여 해당 사회의 건전한 발전에 꼭 필요한 역할을 능동적으로 수행하는 것을 의미한다
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--//vision-->
+		<!--Value system-->
+		<section class="v_system sub intro">
+			<div class="inner">
+				<div class="contents_box">
+					<div class="value philosophy">
+						<h3><p></p><img src="../../image/sub/intro/philosophy.png" alt="value"></h3>
+						<div class="typo">
+							<ul>
+								<li>
+									<strong>무대경영론</strong>
+									회사를 무대에 비유한 것으로, 경영자는 연출자로서
+									<br>뛰어난 연출과 무대를 제공하고 구성원은 그 무대에서
+									<br>성실히 연기하여 고객인 관객들로부터 좋은 호응을
+									<br>얻어낸다는 경영철학
+								</li>
+								<li>
+									<strong>범재경영론</strong>
+									화합하지 않는 천재 집단 보다 화합하여 시너지를
+									<br>창출하는 범재 집단이 더 가치가 있다는 인재철학
+								</li>
+								<li>
+									<strong>성과형 조직론</strong>
+									치열한 경쟁 속에서 밀도와 스피드를 올려 성과를 내는
+									<br>조직과 사람만이 생존할 수 있음을 의미
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="value mental">
+						<h3><p></p><img src="../../image/sub/intro/mental.png" alt="value"></h3>
+						<div class="typo">
+							<ul>
+								<li><strong>열성</strong></li>
+								<li>
+									구성원 각자가 '주어진 역할에 몰입하고, 성과창출에
+									<br>매진하는 정신'으로서 괜찮아, 대충대충, 적당주의와
+									<br>타협하지 않고 치밀한 계획과 정성을 다하여
+									<br>목표달성에 기여하는 것
+								</li>
+								<li><strong>도전</strong></li>
+								<li>
+									할 수 있다는 긍정적인 자세로 불굴의 용기를 발휘하여
+									<br>'새로운 것을 개척해 가는 정신'으로 남보다 앞서 새로운 것을
+									<br>포기하지 않고 개척해 나가는 것
+								</li>
+								<li><strong>창조</strong></li>
+								<li>
+									새로운 가치창출을 위해 변화와 혁신을 추구하는 정신'으로서
+									<br>무사안일주의를 타파하고, 새로운 것에 과감히 도전하여,
+									<br>회사의 유무형의 성장동력과 보다 나은 미래를 창출하는 것
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="conduct_wrap">
+					<div class="value conduct">
+						<h3><p></p><img src="../../image/sub/intro/conduct.png" alt="value"></h3>
+						<span><img src="../../image/sub/intro/Ideology_img3.jpg" alt="value"></span>
+						<div class="typo">
+							<ul>
+								<li><strong>원칙을 철저히</strong></li>
+								<li>
+									일을 함에 있어 항상 기본에 충실하고, 정당한 방법을 택하며,
+									<br>공정하게 경쟁하는 정직한 자세
+								</li>
+								<li><strong>작은것도 소중히</strong></li>
+								<li>
+									자신의 역할을 명확히 인식하고 주인의식으로 자신의 역할을
+									<br>끝까지 완수하는 정신
+								</li>
+								<li><strong>새로운 것을 과감히</strong></li>
+								<li>
+									끊임없이 새로운 것을 창조하기 위하여 자발적인 탐구자세를
+									<br>가지고 부단히 자기계발에 힘쓰고 항상 변화를 추구하는 자세
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--//Value system-->
+		<p style="text-align:right; padding:0 50px 50px 0;"><a href="#" id="scrollTop"><img src="../../image/top_button.jpg" alt="scrollTop"></a></p>
+		<footer>
+			<ul>
+				<div class="footer_inner">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">법적고지</a></li>
+					<li><a href="#">이메일주소무단수집거부</a></li>
+					<li><a href="#">정도경영</a></li>
+					<li><a href="#">신고센터</a></li>
+					<li><a href="#">사업장</a></li>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">고객센터</a></li>
+				</div>
+			</ul>
+			<div class="sub_footer">
+				<div class="footer_inner">
+					<div class="sns">
+						<img src="../../image/fb.png" alt="logo">
+						<img src="../../image/insta.png" alt="logo">
+						<img src="../../image/blog.png" alt="logo">
+					</div>
+					<div class="copyright">
+						<img src="../../image/logo3.png" alt="logo">
+						<p>
+							서울시 서초구 마방로 68(양재동 275) 동원산업빌딩
+							<br>COPYRIGHTⓒ2013 by DONGWON. ALL RIGHTS RESERVED
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</article>
+	<!--//article-->
+
+	<script src="../../js/dropdown.js"></script>
+	<script src="../../js/jquery.effects.core.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	//mobile_tab
+	$(document).ready(function() {
+	$('.full-width').dropdown({
+		dropdownWidth: true, //true or false
+		customClass: 'custom-class',
+		dropdownTopAuto: true, //true or false
+	});
+
+});
+	$(function(){
+		// 대메뉴에서 특정 버튼에 마우스온할때
+		$("#menu > li > a").mouseover(function(){
+			$('#menu > li > ul').slideDown('fast');
+			$("#smenu_bar").slideDown();
+		});
+
+		// 메뉴에서 마우스가 빠져나가면 메뉴를 닫는다
+		$(".nav").mouseleave(function(){
+			$('#menu > li > ul').fadeOut('fast');
+			$('#smenu_bar').fadeOut('fast');
+		});
+	});
+
+    AOS.init({
+		easing: 'ease-in-out-sine'
+    });
+    </script>
+    </script>
+	</script>
+ </body>
+ </html>

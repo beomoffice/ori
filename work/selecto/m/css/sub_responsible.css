@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*°øÅë*/
+@media screen and (max-width:580px){
+	/*nav*/
+	header > h2 a{font-size:26px;}
+	header > h2 img{margin-left:10px;}
+}
+@media screen and (max-width:480px){
+	.about div h2{font-size:22px;}
+}
+@media screen and (max-width:420px){
+	.about div p{font-size:14px;}
+}
+@media screen and (max-width:320px){
+	header > h2 a{font-size:20px;}
+}
+/*section_1*/
+@media screen and (max-width:680px){
+	.section_1.about .bg > img{width:100%;}
+	.section_1.about .bg1 img{width:100%;}
+	.section_1.about .bg{width:20%;}
+	.section_1.about .bg1{width:15%;}
+}
+
+@media screen and (max-width:580px){
+	.section_1.about .contents{width:65%;}
+	.section_1.about > div h2{font-size:24px;}
+}
+
+@media screen and (max-width:480px){
+	.section_1.about > div h2{font-size:22px;}
+}
+
+@media screen and (max-width:420px){
+	.section_1.about > div h2{font-size:18px;}
+	.section_1.about > div span img{width:18px;}
+	.section_1.about .bg1{width:15%}
+}
+
+@media screen and (max-width:320px){
+.section_1.about .contents{width:80%;}
+	.section_1.about > div h2{font-size:18px;}
+	.section_1.about div p{font-size:14px;}
+}
+
+
+/*section_2*/
+@media screen and (max-width:680px){
+    .section_2.about div > span img{width:90px;}
+}
+@media screen and (max-width:580px){
+    .section_2.about .inner_about div{width:80%}
+	.section_2.about .inner_about div p br{display:none;}
+}
+@media screen and (max-width:480px){
+    .section_2.about div > span img{width:70px;}
+}
+@media screen and (max-width:420px){
+    .section_2.about div > span img{width:50px;}
+	.section_2.about .inner_about h2{font-size:22px}
+	.section_2.about div p{font-size:14px;}
+}
+@media screen and (max-width:420px){
+	.section_2.about .inner_about h2{font-size:18px}
+}
+
+/*section_3*/
+@media screen and (max-width:680px){
+	.section_3.about .box{width:50%;}
+	.section_3.about .box p br{display:none;}
+}
+
+@media screen and (max-width:580px){
+	.section_3.about .box{width:70%;}
+	.section_3.about .box div h2{font-size:24px;}
+}
+
+@media screen and (max-width:420px){
+	.section_3.about .box{width:65%;}
+	.section_3.about .box div h2{font-size:18px;}
+	.section_3.about .box div p{font-size:14px;}
+}
+
+@media screen and (max-width:320px){
+	.section_3.about .box div h2{font-size:16px; letter-spacing:-1px;}
+	.section_3.about{padding:0px 0 40px 0; min-height:250px;}
+	.section_3.about .box{bottom:20px;}
+}
+
+
+

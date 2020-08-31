@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*header*/
+header > h2{background:#bb0712; text-align:center;  padding:20px;}
+header > h2 a{text-decoration:none; color:#fff; font-size:30px;}
+header > h2 img{margin-left:20px;}
+
+/*vis*/
+.visual{width:100%}
+.visual img{width:100%; display:block;}
+
+/*article*/
+
+/*section*/
+.about{font-family: 'Nanum Myeongjo', serif; color:#fff;}
+.about h2{line-height:130%; font-weight:normal;}
+.about p{font-family: 'NanumSquare'; line-height:135%; font-size:16px;}
+
+/*section_1*/
+.section_1.about{position:relative; padding:70px 0;}
+.section_1.about .bg {position:absolute; top:0; right:0;}
+.section_1.about .bg1{position:absolute; bottom:0; left:0;}
+
+.section_1.about > div{text-align:center; }
+.section_1.about .contents{width:55%; margin:0 auto; }
+.section_1.about > div span{display:block; margin-bottom:14px;}
+.section_1.about > div h2{font-size:30px; line-height:120%; color:#bb0712; margin-bottom:30px;}
+.section_1.about > div p{color:#2b2b2b; font-size:16px; line-height:130%; }
+
+/*section_2*/
+.section_2.about{background:#bb0712; padding:40px 0}
+.section_2.about .inner_about{width:90%; margin:0 auto;position:relative;}
+.section_2.about .inner_about > span{position:absolute; bottom:0; right:0px;}
+.section_2.about .inner_about h2{font-size:26px; margin-bottom:20px;}
+.section_2.about .inner_about h2 span{display:block; text-indent:40px;}
+.section_2.about .inner_about p{margin-bottom:15px;}
+.section_2.about .inner_about p:last-child{margin-bottom:0}
+
+/*section_3*/
+.section_3.about{padding:40px 0; position:relative; min-height:445px; background:url('../image/sub/section_3.jpg') no-repeat top center; background-size:cover;}
+.section_3.about .box{padding:20px 30px;position:absolute; bottom:60px; right:0; background:rgba(0,0,0,0.7)}
+.section_3.about .box > div{width:95%; margin:0 auto;}
+.section_3.about .box > div h2{font-size:22px; margin-bottom:20px;}
+.section_3.about .box > div p{font-size:16px;}
+
+/*footer*/
+footer{background:#222; font-family: 'NotoKrL';}
+footer div{padding-top:40px; text-align:center;}
+footer div h2{color:#ff3442; margin-bottom:20px; font-size:24px;}
+footer div p{color:#fff; line-height:135%; font-size:18px;}
+footer div ul{border:1px solid #626262; border-right:0; border-left:0; margin:20px auto;}
+footer div ul li{display:inline-block; margin:20px;}
+footer div ul li a{color:#fff; font-size:16px;}
+footer div span{display:block; color:#989898; font-size:14px; line-height:150%; padding-bottom:40px;}

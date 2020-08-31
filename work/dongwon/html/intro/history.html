@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta charset="euc-kr">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../../css/responsible.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../../css/aos.css">
+
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script type="text/JavaScript" src="../../js/jquery.slicknav.js"></script>
+		<script type="text/JavaScript" src="../../js/aos.js"></script>
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+		<script>
+			$(document).ready(function(){
+			   $('#menu').slicknav();
+			});
+
+			/*scrollTop*/
+			$(function(){
+				$("#scrollTop").on("click",function(){
+	/*기준점*/$("html,body").animate({
+						scrollTop : 0
+					},600);
+					return false;
+				});
+			})
+
+	    </script>
+	</head>
+ <body>
+    <!--header(s)-->
+    <header>
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<h1><a href="../../index.html"><img src="../../image/logo.png" alt="logo"></a></h1>
+				<ul class="nav-list" id="menu">
+					<li class="in_menu01"><a href="#">동원소개</a>
+						<ul>
+							<li><a href="../intro/group.html">그룹개요</a></li>
+							<li><a href="../intro/culture.html">기업문화</a></li>
+							<li><a href="../intro/ceo.html">CEO</a></li>
+							<li><a href="../intro/history.html">역사관</a></li>
+						</ul>
+					</li>
+					<li class="in_menu02"><a href="#">동원정보</a>
+						<ul>
+							<li><a href="../info/news.html">뉴스</a></li>
+							<li><a href="../info/brochure.html">브로슈어</a></li>
+							<li><a href="../info/advertise.html">동원광고</a></li>
+							<li><a href="../info/webzine.html">동원사보</a></li>
+						</ul>
+					</li>
+					<li class="in_menu03"><a href="#">정도경영</a>
+						<ul>
+							<li><a href="../intro/culture.html">동원의 정도경영</a></li>
+							<li><a href="../intro/culture.html">신고센터 이용안내</a></li>
+							<li><a href="../intro/history.html">신고하기</a></li>
+							<li><a href="../intro/history.html">처리결과 조회</a></li>
+						</ul>
+					</li>
+					<li class="in_menu04"><a href="#">인재채용</a>
+						<ul>
+							<li><a href="../intro/ceo.html">직무소개</a></li>
+							<li><a href="../intro/history.html">채용공고</a></li>
+							<li><a href="../intro/group.html">인재 DB</a></li>
+							<li><a href="../info/advertise.html">인사제도</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="smenu_bar"></div>
+		</nav>
+		<!-- //nav -->
+
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+			<h1><a href="../../index.html"><img src="../../image/logo1.png" alt="logo"></a></h1>
+		</div>
+		<!-- //mobile_menu -->
+	</header>
+	<!--header(e)-->
+
+	<!--visual-->
+	<div class="visual sub intro">
+		<div class="inner">
+			<a href="#"><img src="../../image/sub/intro/visual_title.png" alt="vis"></a>
+		</div>
+	</div>
+	<!--//visual-->
+
+	<!--tab-->
+	<div class="tab">
+		<ul>
+			<li><a href="group.html">그룹개요</a></li>
+			<li><a href="culture.html">기업문화</a></li>
+			<li><a href="ceo.html">CEO</a></li>
+			<li id="selected"><a href="history.html">역사관</a></li>
+		</ul>
+	</div>
+	<!--//tab-->
+	<!--mobile_tab-->
+	<div class="location">
+		<div class="inner_location">
+		    <div class="home"><a href="../../index.html"><img src="../../image/home.png" alt="home"></a></div>
+		    <div class="dp-wrap full-width down">
+        	<button class="js-dp-click button-common-cp">동원소개</button>
+					<div class="dp-con js-dp-content">
+	          <ul>
+							<li><a href="group.html">동원소개</a></li>
+	            <li><a href="../info/news.html">동원정보</a></li>
+	            <li><a href="#">정도경영</a></li>
+							<li><a href="#">인재채용</a></li>
+	          </ul>
+	      	</div>
+        </div>
+				<div class="dp-wrap full-width down">
+          <button class="js-dp-click button-common-cp">역사관</button>
+          <div class="dp-con js-dp-content">
+            <ul>
+              <li><a href="group.html">그룹개요</a></li>
+              <li><a href="culture.html">기업문화</a></li>
+							<li><a href="ceo.html">CEO</a></li>
+							<li><a href="history.html">역사관</a></li>
+            </ul>
+      	  </div>
+			</div>
+		</div>
+	</div>
+	<!--mobile_tab-->
+	<!--article-->
+	<article class="history sub intro">
+		<!--history-->
+		<section class="history sub intro">
+			<div class="inner">
+				<h2>History<span></span></h2>
+				<h3>역사관</h3>
+				<!--tabs-->
+				<div class="man">
+					<ul class="tabs">
+						<li class="active" rel="tab1"><span class="m_m">글로벌</span> 도약기</li>
+						<li rel="tab2">성숙기</li>
+						<li rel="tab3">성장기</li>
+						<li rel="tab4">창업기</li>
+					</ul>
+				</div>
+				<!--//tabs-->
+			</div>
+			<div class="contents">
+				<div class="tab_container">
+					<div id="tab1" class="tab_content">
+						<div class="visual"><h3>2000 ~ 현재<p>글로벌 도약기</p></h3></div>
+						<div class="year_table inner">
+							<div class="basket">
+								<h3>2000's</h3>
+								<ul>
+									<li>
+										<p>11.</p>
+										<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2001's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2002's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>금융자회사 분리 동원금융지주 분할 설립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2005's</h3>
+								<ul>
+									<li>
+										<p>07.</p>
+										<span>DM FOOD인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2006's</h3>
+								<ul>
+									<li>
+										<p>05.</p>
+										<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+									</li>
+									<li>
+										<p>09.</p>
+										<span>해태유업 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2007's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원리더스아카데미 개원</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2008's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2009's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 40주년 비전 및 CI발표</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원홈푸드 시화식자재유통센터 오픈</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2010's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>동원F&B 천안공장 준공</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2011's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>동원F&B 그룹 계열사 최초 연매출 1조원 달성</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원그룹, 세네갈 SNCDS 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2012's</h3>
+								<ul>
+									<li>
+										<p>05.</p>
+										<span>동원그룹, 대한은박지 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2012's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>동원시스템즈 대한은박지 합병 동원건설산업, 동원T&I 분할 설립</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>동원참치 중국시장 진출</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>세네갈 S.C.A SA 공장 준공</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>한진P&C 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2014's</h3>
+								<ul>
+									<li>
+										<p>03.</p>
+										<span>동원F&B, 동원데어리푸드 흡수합병 동원홈푸드, 삼조쎌텍 합병</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>창립 45주년</span>
+									</li>
+									<li>
+										<p>05.</p>
+										<span>동원홈푸드, 중국 위해 조미식품 제조공장 준공</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원참치 업계 최초 '50억캔' 판매 달성</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>동원시스템즈, '아르다 사모아(現탈로파시스템즈)' 인수</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원그룹, 알래스카 최고연어어획회사, '실버베이씨푸드' 투자계약체결​</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2015's</h3>
+								<ul>
+									<li>
+										<p>09.17</p>
+										<span>동원시스템즈, 베트남 포장재 기업 'TTP , MVP' 인수</span>
+									</li>
+									<li>
+										<p>09.21</p>
+										<span>동원F&B, 온라인 축산물 유통기업 '금천' 인수</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>동원산업,'2015 한국의 경영대상'에서'종합대상' 수상</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2016's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>'김재철 평전' 발간</span>
+									</li>
+									<li>
+										<p>06.</p>
+										<span>동원그룹, '동원 목요세미나' 2000회 개회</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원그룹, '지속가능경영보고서' 발간</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원산업, 지속가능한 수산업을 위한 소네바(Soneva) 공동선언 채택</span>
+									</li>
+									<li>
+										<p>12.16</p>
+										<span>동부익스프레스 인수</span>
+									</li>
+									<li>
+										<p>12.22</p>
+										<span>동원그룹, 문화체육관광부 주최 '제 3회 독서경영 우수직장 인증' 대상 수상</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>2017's</h3>
+								<ul>
+									<li>
+										<p>03.</p>
+										<span>두산생물자원 인수(現 동원팜스)</span>
+									</li>
+									<li>
+										<p>09.</p>
+										<span>동원로엑스 준공</span>
+									</li>
+									<li>
+										<p>12.</p>
+										<span>동원시스템즈 1억불수출탑 수상</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="tab2" class="tab_content">
+						<div class="visual"><h3>1990 ~ 1999<p>성숙기</p></h3></div>
+						<div class="year_table inner">
+							<div class="basket">
+								<h3>1990's</h3>
+								<ul>
+									<li>
+										<p>11.</p>
+										<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1991's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1992's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>금융자회사 분리 동원금융지주 분할 설립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1995's</h3>
+								<ul>
+									<li>
+										<p>07.</p>
+										<span>DM FOOD인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1996's</h3>
+								<ul>
+									<li>
+										<p>05.</p>
+										<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+									</li>
+									<li>
+										<p>09.</p>
+										<span>해태유업 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1997's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원리더스아카데미 개원</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1998's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1999's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 40주년 비전 및 CI발표</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원홈푸드 시화식자재유통센터 오픈</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="tab3" class="tab_content">
+						<div class="visual"><h3>1980 ~ 1989<p>성장기</p></h3></div>
+						<div class="year_table inner">
+							<div class="basket">
+								<h3>1980's</h3>
+								<ul>
+									<li>
+										<p>11.</p>
+										<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1981's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1982's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>금융자회사 분리 동원금융지주 분할 설립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1985's</h3>
+								<ul>
+									<li>
+										<p>07.</p>
+										<span>DM FOOD인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1986's</h3>
+								<ul>
+									<li>
+										<p>05.</p>
+										<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+									</li>
+									<li>
+										<p>09.</p>
+										<span>해태유업 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1987's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원리더스아카데미 개원</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1988's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1989's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 40주년 비전 및 CI발표</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원홈푸드 시화식자재유통센터 오픈</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="tab4" class="tab_content">
+						<div class="visual"><h3>1969 ~ 1979<p>창업기</p></h3></div>
+						<div class="year_table inner">
+							<div class="basket">
+								<h3>1969's</h3>
+								<ul>
+									<li>
+										<p>11.</p>
+										<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1971's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+									</li>
+									<li>
+										<p>04.</p>
+										<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1972's</h3>
+								<ul>
+									<li>
+										<p>01.</p>
+										<span>금융자회사 분리 동원금융지주 분할 설립</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1975's</h3>
+								<ul>
+									<li>
+										<p>07.</p>
+										<span>DM FOOD인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1976's</h3>
+								<ul>
+									<li>
+										<p>05.</p>
+										<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+									</li>
+									<li>
+										<p>09.</p>
+										<span>해태유업 인수</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1977's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+									</li>
+									<li>
+										<p>07.</p>
+										<span>동원리더스아카데미 개원</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1978's</h3>
+								<ul>
+									<li>
+										<p>02.</p>
+										<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+									</li>
+									<li>
+										<p>10.</p>
+										<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<h3>1979's</h3>
+								<ul>
+									<li>
+										<p>04.</p>
+										<span>동원그룹 40주년 비전 및 CI발표</span>
+									</li>
+									<li>
+										<p>11.</p>
+										<span>동원홈푸드 시화식자재유통센터 오픈</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--mobile_arcordion-->
+				<div class="accordion">
+					<div class="item">
+						<h3>글로벌 성장기</h3>
+						<img src="../../image/arrow_bottom.png" alt="button">
+					</div>
+					<div class="year_table inner">
+						<div class="basket">
+							<h3>2000's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>2000's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>2000's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<h3>성숙기</h3>
+						<img src="../../image/arrow_bottom.png" alt="button">
+					</div>
+					<div class="year_table inner">
+						<div class="basket">
+							<h3>1990's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1991's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+								</li>
+								<li>
+									<p>04.</p>
+									<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1992's</h3>
+							<ul>
+								<li>
+									<p>01.</p>
+									<span>금융자회사 분리 동원금융지주 분할 설립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1995's</h3>
+							<ul>
+								<li>
+									<p>07.</p>
+									<span>DM FOOD인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1996's</h3>
+							<ul>
+								<li>
+									<p>05.</p>
+									<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+								</li>
+								<li>
+									<p>09.</p>
+									<span>해태유업 인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1997's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>동원리더스아카데미 개원</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1998's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1999's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 40주년 비전 및 CI발표</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>동원홈푸드 시화식자재유통센터 오픈</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<h3>성장기</h3>
+						<img src="../../image/arrow_bottom.png" alt="button">
+					</div>
+					<div class="year_table inner">
+						<div class="basket">
+							<h3>1980's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1981's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+								</li>
+								<li>
+									<p>04.</p>
+									<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1982's</h3>
+							<ul>
+								<li>
+									<p>01.</p>
+									<span>금융자회사 분리 동원금융지주 분할 설립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1985's</h3>
+							<ul>
+								<li>
+									<p>07.</p>
+									<span>DM FOOD인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1986's</h3>
+							<ul>
+								<li>
+									<p>05.</p>
+									<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+								</li>
+								<li>
+									<p>09.</p>
+									<span>해태유업 인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1987's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>동원리더스아카데미 개원</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1988's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1989's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 40주년 비전 및 CI발표</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>동원홈푸드 시화식자재유통센터 오픈</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<h3>창업기</h3>
+						<img src="../../image/arrow_bottom.png" alt="button">
+					</div>
+					<div class="year_table inner">
+						<div class="basket">
+							<h3>1969's</h3>
+							<ul>
+								<li>
+									<p>11.</p>
+									<span>동원F&B, 동원산업 식품사업본부 분할을 통한 창립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1971's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 지주회사 동원엔터프라이즈 설립</span>
+								</li>
+								<li>
+									<p>04.</p>
+									<span>2001 동원컵 전국 유소년 축구리그 (대한축구협회와공동주최)</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>오리엔탈캐터링, 63시티(FS사업부문) 인수 및 동원홈푸드로 상호 변경</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1972's</h3>
+							<ul>
+								<li>
+									<p>01.</p>
+									<span>금융자회사 분리 동원금융지주 분할 설립</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1975's</h3>
+							<ul>
+								<li>
+									<p>07.</p>
+									<span>DM FOOD인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1976's</h3>
+							<ul>
+								<li>
+									<p>05.</p>
+									<span>김재철 회장 여수국제 엑스포 유치위원장 선임</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>국내 최초 PS처리 가능 선망선 건조 (OCEAN ACE)</span>
+								</li>
+								<li>
+									<p>09.</p>
+									<span>해태유업 인수</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1977's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>조미식품 전문회사 삼조쎌텍, 티에스큐 인수</span>
+								</li>
+								<li>
+									<p>07.</p>
+									<span>동원리더스아카데미 개원</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1978's</h3>
+							<ul>
+								<li>
+									<p>02.</p>
+									<span>김재철 회장 국민훈장 무궁화장 수훈</span>
+								</li>
+								<li>
+									<p>10.</p>
+									<span>미국 최대 참치 브랜드 STARKIST 인수</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>이천물류센터(국내 최대 냉동자동화 창고 신축)</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket">
+							<h3>1979's</h3>
+							<ul>
+								<li>
+									<p>04.</p>
+									<span>동원그룹 40주년 비전 및 CI발표</span>
+								</li>
+								<li>
+									<p>11.</p>
+									<span>동원홈푸드 시화식자재유통센터 오픈</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+			   </div>
+				<!--//mobile_arcordion-->
+			</div>
+		</section>
+		<!--//histroy-->
+		<p style="text-align:right; padding:0 50px 50px 0;"><a href="#" id="scrollTop"><img src="../../image/top_button.jpg" alt="scrollTop"></a></p>
+		<footer>
+			<ul>
+				<div class="footer_inner">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">법적고지</a></li>
+					<li><a href="#">이메일주소무단수집거부</a></li>
+					<li><a href="#">정도경영</a></li>
+					<li><a href="#">신고센터</a></li>
+					<li><a href="#">사업장</a></li>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">고객센터</a></li>
+				</div>
+			</ul>
+			<div class="sub_footer">
+				<div class="footer_inner">
+					<div class="sns">
+						<img src="../../image/fb.png" alt="logo">
+						<img src="../../image/insta.png" alt="logo">
+						<img src="../../image/blog.png" alt="logo">
+					</div>
+					<div class="copyright">
+						<img src="../../image/logo3.png" alt="logo">
+						<p>
+							서울시 서초구 마방로 68(양재동 275) 동원산업빌딩
+							<br>COPYRIGHTⓒ2013 by DONGWON. ALL RIGHTS RESERVED
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</article>
+	<!--//article-->
+
+	<script src="../../js/dropdown.js"></script>
+	<script src="../../js/jquery.effects.core.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	//mobile_tab
+	$(document).ready(function() {
+	$('.full-width').dropdown({
+		dropdownWidth: true, //true or false
+		customClass: 'custom-class',
+		dropdownTopAuto: true, //true or false
+	});
+
+});
+	$(function(){
+
+		// 대메뉴에서 특정 버튼에 마우스온할때
+		$("#menu > li > a").mouseover(function(){
+			$('#menu > li > ul').slideDown('fast');
+			$("#smenu_bar").slideDown();
+		});
+
+		// 메뉴에서 마우스가 빠져나가면 메뉴를 닫는다
+		$(".nav").mouseleave(function(){
+			$('#menu > li > ul').fadeOut('fast');
+			$('#smenu_bar').fadeOut('fast');
+		});
+	});
+
+    AOS.init({
+		easing: 'ease-in-out-sine'
+    });
+
+	////////////tab/////////////////////
+		$(function () {
+		$(".tab_content").hide();
+		$(".tab_content:first").show();
+
+		$("ul.tabs li").click(function () {
+			$("ul.tabs li").removeClass("active").css("color", "#5d5d5d");
+			$(this).addClass("active").css("color", "#000");
+			$(".tab_content").hide()
+			var activeTab = $(this).attr("rel");
+			$("#" + activeTab).fadeIn()
+		});
+	});
+
+	////////////////mobile_arcordion///////////////
+	 (function ($) {
+    'use strict';
+    $('.item').on("click", function () {
+        $(this).next().slideToggle(100);
+        $('.year_table').not($(this).next()).slideUp('fast');
+    });
+}(jQuery));
+	</script>
+ </body>
+ </html>

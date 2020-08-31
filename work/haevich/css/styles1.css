@@ -1,0 +1,206 @@
+body {
+	padding:0;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
+}
+a{text-decoration:none; }
+
+.header {
+	margin-top:30px;
+	font-size:16px;
+	width:100%;
+	position:fixed;
+	z-index:999999;
+	font-weight:bold;
+	font-family: 'Book Antiqua'
+	}
+
+
+.menu__element {
+	margin: 0 10px;
+
+}
+.menu__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #fff;
+}
+
+.menu__container{text-align:right; overflow:hidden; margin-right:40px;}
+.menu__container li{display:inline-block;}
+.menu__container li a{color:#424242;}
+.menu__container span{float:left; margin-left:32px;}
+
+
+.menu__element_no-clickable .menu__link:hover,
+.menu__element_no-clickable .menu__link {
+	cursor: default;
+}
+
+/*section*/
+section {
+
+	height:1020px;
+	width:100%;
+}
+section .section-header p{font-size:20px; padding-top:40px;}
+section + section .section-header{padding-top:123px; font-size:48px;}
+
+.section-header {
+	text-transform: uppercase;
+}
+
+
+/*section_home*/
+section#home{background:url(../image/section_1_bg.jpg) no-repeat top center;}
+section#home h2{padding-top:220px;}
+section#home ul{padding-top:145px;position:relative;}
+section#home ul li{display:inline-block; vertical-align:top;color:#222; font-weight:bold; width:310px; height:220px; background-color:rgba(255,255,255,0.5); cursor: pointer;}
+section#home ul li:nth-child(2){margin:0 200px;}
+section#home li h3{font-size:24px; padding:60px 0 24px; }
+section#home li p{font-size:18px; line-height: 130%;font-family: 'NotoKrL';}
+
+
+/*section_offers*/
+section#offers{}
+section#offers .section-content{padding-top:93px;}
+section#offers .section-content ul li img{margin:0 auto;}
+section#offers .more{margin-top:40px; font-size:18px; background:#7f7059; display:inline-block; padding:15px 0; width:250px; font-weight:bold;}
+section#offers a{text-decoration:none; color:#fff;}
+
+/*section_rooms*/
+section#rooms{position:relative;}
+section#rooms .bg{height:420px; background:url(../image/section_3_bg.jpg) no-repeat top center; }
+section#rooms .section-content{width:100%;}
+section#rooms .section-content ul.tabs {
+	position:absolute;
+	top:360px;
+	margin: 0;
+	padding: 0;
+	height: 75px;
+	width:100%;
+	font-size:0
+}
+section#rooms .section-content ul.tabs li {
+	display:inline-block;
+	text-align:center;
+	cursor: pointer;
+	width:177px;
+	height: 75px;
+	line-height: 75px;
+	background: #fff;
+	position: relative;
+	font-size:15px;
+	font-weight:bold;
+	border-left:1px solid #ddd;
+}
+section#rooms .section-content ul.tabs li:first-child{border:0;}
+section#rooms .section-content ul.tabs li:hover,
+section#rooms .section-content ul.tabs li.active {
+	background: #7f7059;
+	color:#fff;
+}
+section#rooms .section-content .tab_container {
+	margin-top:50px;
+	width:100%;
+}
+section#rooms .section-content .tab_content {
+	padding:0px;
+	display: block;
+	width:100%;
+	margin:0 auto;
+}
+section#rooms ul li img{margin:0 auto;}
+
+section#rooms .tab_content > ul > li{position:relative;}
+section#rooms .black_box{display:inline-block; background:rgba(255,255,255,0.7); position:absolute; bottom:28px; right:178px; padding:20px 10px}
+section#rooms .black_box div{text-align:left; margin:20px 27px; color:#222;}
+section#rooms .black_box div > p{font-size:24px;}
+section#rooms .black_box div > ul {margin-bottom:15px;}
+section#rooms .black_box div > ul > li{margin-top:15px; font-size:18px;}
+section#rooms .black_box div > ul > li > ul > li{font-size:16px; text-indent:20px; line-height:130%; padding:3px 0}
+section#rooms .black_box div > a{background:#42331c; color:#fff; display:block; width:100%; text-align:center; font-size:14px; padding:13px 0; font-family: 'NotoKrL';}
+
+/*section_event*/
+section#event{background:#f2f2f2}
+section#event .section-content{margin-top:90px;}
+section#event .section-content ul li{width:355px; display:inline-block; vertical-align:top; height:405px; background:#fff;}
+section#event ul li:nth-child(2){margin:0 68px;}
+section#event .section-content ul li div p:first-child{padding-top:32px; font-size:20px; color:#2c201c; font-weight:bold;}
+section#event .section-content ul li div p:last-child{padding:20px 25px; font-size:16px; color:#424242; line-height:130%;}
+section#event .section-content ul li a{display:block;}
+section#event .section-content ul li:hover{background:#2c201c;}
+section#event .section-content ul li:hover div p{color:#fff;}
+
+
+/*section_moments*/
+section#moments{background:url(../image/section_5_bg.jpg) no-repeat top center;}
+section#moments .section-header{color:#fff;}
+section#moments .section-content{margin-top:197px; cursor: pointer;}
+
+/*section_reservation*/
+section#reservation{background:#ededed; height:740px;}
+section#reservation .section-content{width:1200px; background:#282828; margin:90px auto 0; padding:40px 0}
+.inner_form{overflow:hidden; width:930px; margin:0 auto;}
+.table_style{width:600px; float:left; font-size:20px;}
+.table_style th{color:#ddd; padding:5px 0; border-bottom:1px solid #fff; text-align:left; text-indent:8px;}
+.table_style td{color:#ddd; padding:5px 0; border-bottom:1px solid #fff; text-align:left;}
+section#reservation .btn{width:218px;height:218px; background:#000; cursor: pointer;}
+section#reservation .btn img{margin-top:94px;}
+
+.btn{float:right}
+
+/*footer*/
+footer{background:#cacaca;}
+footer .sns{padding-top:60px;}
+footer .sns li{display:inline-block;}
+footer .sns li:nth-child(2){margin:0 25px;}
+footer .blabla{margin:40px auto 0;}
+footer .blabla li{display:inline-block; margin-right:40px; font-size:18px; font-weight:bold; }
+footer .blabla li a{color:#424242;}
+footer .footer_text{margin-top:40px; line-height:200%; font-size:16px; padding-bottom:60px; color:#424242;}
+
+/*������*/
+#win{width:750px; position:fixed; top:50%; left:50%; height:400px; z-index:99999999;}
+	#Black{display:none; position:fixed; left:0; top:0; height:100%; width:100%; background:#000;
+		opacity: 0.7;
+		filter:alpha(opacity=70);
+		-ms-filter:"alpha(opacity=70)";
+		z-index:9999999;
+		}
+
+
+
+/*animate*/
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  animation: flash 5s infinite ease-in-out;
+}

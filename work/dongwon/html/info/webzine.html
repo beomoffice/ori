@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta charset="euc-kr">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../../css/responsible.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../../css/aos.css">
+
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script type="text/JavaScript" src="../../js/jquery.slicknav.js"></script>
+		<script type="text/JavaScript" src="../../js/aos.js"></script>
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+		<script>
+		    $(document).ready(function(){
+			   $('#menu').slicknav();
+			});
+			/*scrollTop*/
+			$(function(){
+				$("#scrollTop").on("click",function(){
+	/*기준점*/$("html,body").animate({
+						scrollTop : 0
+					},600);
+					return false;
+				});
+			})
+	    </script>
+	</head>
+ <body>
+    <!--header(s)-->
+    <header>
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<h1><a href="../../index.html"><img src="../../image/logo.png" alt="logo"></a></h1>
+				<ul class="nav-list" id="menu">
+					<li class="in_menu01"><a href="#">동원소개</a>
+						<ul>
+							<li><a href="../intro/group.html">그룹개요</a></li>
+							<li><a href="../intro/culture.html">기업문화</a></li>
+							<li><a href="../intro/ceo.html">CEO</a></li>
+							<li><a href="../intro/history.html">역사관</a></li>
+						</ul>
+					</li>
+					<li class="in_menu02"><a href="#">동원정보</a>
+						<ul>
+							<li><a href="../info/news.html">뉴스</a></li>
+							<li><a href="../info/brochure.html">브로슈어</a></li>
+							<li><a href="../info/advertise.html">동원광고</a></li>
+							<li><a href="../info/webzine.html">동원사보</a></li>
+						</ul>
+					</li>
+					<li class="in_menu03"><a href="#">정도경영</a>
+						<ul>
+							<li><a href="../intro/culture.html">동원의 정도경영</a></li>
+							<li><a href="../intro/culture.html">신고센터 이용안내</a></li>
+							<li><a href="../intro/history.html">신고하기</a></li>
+							<li><a href="../intro/history.html">처리결과 조회</a></li>
+						</ul>
+					</li>
+					<li class="in_menu04"><a href="#">인재채용</a>
+						<ul>
+							<li><a href="../intro/ceo.html">직무소개</a></li>
+							<li><a href="../intro/history.html">채용공고</a></li>
+							<li><a href="../intro/group.html">인재 DB</a></li>
+							<li><a href="../info/advertise.html">인사제도</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="smenu_bar"></div>
+		</nav>
+		<!-- //nav -->
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+			<h1><a href="#"><img src="../../image/logo1.png" alt="logo"></a></h1>
+		</div>
+		<!-- //mobile_menu -->
+	</header>
+	<!--header(e)-->
+
+	<!--visual-->
+	<div class="visual sub info">
+		<div class="inner">
+			<a href="#"><img src="../../image/sub/info/visual_title.png" alt="vis"></a>
+		</div>
+	</div>
+	<!--//visual-->
+
+	<!--tab-->
+	<div class="tab">
+		<ul>
+			<li><a href="news.html">뉴스</a></li>
+			<li><a href="brochure.html">브로슈어</a></li>
+			<li><a href="advertise.html">광고</a></li>
+			<li id="selected"><a href="webzine.html">사보</a></li>
+		</ul>
+	</div>
+	<!--//tab-->
+	<!--mobile_tab-->
+	<div class="location">
+		<div class="inner_location">
+		    <div class="home"><a href="../../index.html"><img src="../../image/home.png" alt="home"></a></div>
+		    <div class="dp-wrap full-width down">
+				<button class="js-dp-click button-common-cp">동원정보</button>
+				<div class="dp-con js-dp-content">
+					<ul>
+						<li><a href="../intro/group.html">동원소개</a></li>
+						<li><a href="news.html">동원정보</a></li>
+						<li><a href="#">정도경영</a></li>
+						<li><a href="#">인재채용</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="dp-wrap full-width down">
+				<button class="js-dp-click button-common-cp">사보</button>
+				<div class="dp-con js-dp-content">
+					<ul>
+						<li><a href="news.html">뉴스</a></li>
+						<li><a href="brochure.html">브로슈어</a></li>
+						<li><a href="advertise.html">광고</a></li>
+						<li><a href="webzine.html">사보</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--mobile_tab-->
+	<!--article-->
+	<article class="webzine sub intro">
+		<!--news-->
+		<section class="webzine sub intro">
+			<div class="inner">
+				<h2>동원가족의 이야기<span></span></h2>
+				<h3>동원그룹 사보</h3>
+			</div>
+				<!--contents-->
+				<div class="contents">
+					<div class="year_wrap">
+						<ul>
+							<li><h3><span></span>2018</h3>
+								<ul class="item">
+									<li><img src="../../image/sub/info/webzine_img_1.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_2.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_3.jpg" alt="webzine"></li>
+								</ul>
+							</li>
+
+							<li><h3><span></span>2017</h3>
+								<ul class="item">
+									<li><img src="../../image/sub/info/webzine_img_4.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_5.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_6.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_7.jpg" alt="webzine"></li>
+								</ul>
+							</li>
+
+							<li><h3><span></span>2016</h3>
+								<ul class="item">
+									<li><img src="../../image/sub/info/webzine_img_8.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_9.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_10.jpg" alt="webzine"></li>
+									<li><img src="../../image/sub/info/webzine_img_11.jpg" alt="webzine"></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+					<button>VIEW MORE +</button>
+				</div>
+				<!--//contents-->
+
+		</section>
+		<!--//news-->
+
+		<p style="text-align:right; padding:0 50px 50px 0;"><a href="#" id="scrollTop"><img src="../../image/top_button.jpg" alt="scrollTop"></a></p>
+		<footer>
+			<ul>
+				<div class="footer_inner">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">법적고지</a></li>
+					<li><a href="#">이메일주소무단수집거부</a></li>
+					<li><a href="#">정도경영</a></li>
+					<li><a href="#">신고센터</a></li>
+					<li><a href="#">사업장</a></li>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">고객센터</a></li>
+				</div>
+			</ul>
+			<div class="sub_footer">
+				<div class="footer_inner">
+					<div class="sns">
+						<img src="../../image/fb.png" alt="logo">
+						<img src="../../image/insta.png" alt="logo">
+						<img src="../../image/blog.png" alt="logo">
+					</div>
+					<div class="copyright">
+						<img src="../../image/logo3.png" alt="logo">
+						<p>
+							서울시 서초구 마방로 68(양재동 275) 동원산업빌딩
+							<br>COPYRIGHTⓒ2013 by DONGWON. ALL RIGHTS RESERVED
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</article>
+	<!--//article-->
+	<script src="../../js/dropdown.js"></script>
+	<script src="../../js/jquery.effects.core.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+	$('.full-width').dropdown({
+		dropdownWidth: true, //true or false
+		customClass: 'custom-class',
+		dropdownTopAuto: true, //true or false
+	});
+
+});
+	$(function(){
+		// 대메뉴에서 특정 버튼에 마우스온할때
+		$("#menu > li > a").mouseover(function(){
+			$('#menu > li > ul').slideDown('fast');
+			$("#smenu_bar").slideDown();
+		});
+
+		// 메뉴에서 마우스가 빠져나가면 메뉴를 닫는다
+		$(".nav").mouseleave(function(){
+			$('#menu > li > ul').fadeOut('fast');
+			$('#smenu_bar').fadeOut('fast');
+		});
+	});
+
+    AOS.init({
+		easing: 'ease-in-out-sine'
+    });
+    </script>
+    </script>
+	</script>
+ </body>
+ </html>

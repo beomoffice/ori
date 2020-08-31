@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  overflow: hidden;
+ *zoom: 1;
+  margin: 0 20px;
+}
+
+/*visual*/
+.main_vis,
+.sub_vis{width:100%;}
+.main_vis img,
+.sub_vis img{width:100%;}
+
+/*article*/
